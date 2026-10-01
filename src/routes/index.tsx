@@ -258,6 +258,90 @@ function Index() {
           </Reveal>
         </div>
       </section>
+      {/* SORPRESAS */}
+      <section className="relative px-6 py-24 bg-black text-center overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.10),transparent_60%)]" />
+
+        <div className="relative z-10 max-w-3xl mx-auto">
+          <p className="text-[0.65rem] tracking-[0.45em] text-gold uppercase mb-4">
+            Una noche para recordar
+          </p>
+
+          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6">
+            Sorpresas
+          </h2>
+
+          <div className="rule-gold shimmer-line mx-auto mb-8 w-32" />
+
+          <p className="text-sm sm:text-base text-silver/80 leading-relaxed max-w-2xl mx-auto mb-12">
+            Por favor, llega puntual; tenemos preparadas muchas sorpresas para ti.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">🌳</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Libro de árbol
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Para que me escribas un lindo mensaje.
+              </p>
+            </div>
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">🎨</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Pinta caritas y tatuajes
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Un espacio para divertirte y dejar volar tu imaginación.
+              </p>
+            </div>
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">📸</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Cabina de fotos
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Guarda recuerdos especiales de esta gran noche.
+              </p>
+            </div>
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">🍿</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Barra de snacks
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Algo delicioso para disfrutar durante la celebración.
+              </p>
+            </div>
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">🎁</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Piñata
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Prepárate para un momento lleno de diversión.
+              </p>
+            </div>
+
+            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+              <div className="text-2xl mb-3">🎭</div>
+              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                Show con animación
+              </h3>
+              <p className="text-silver/70 text-sm leading-relaxed">
+                Una sorpresa especial para disfrutar juntos.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
