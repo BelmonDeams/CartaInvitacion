@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Envelope } from "@/components/quince/Envelope";
 import { Countdown } from "@/components/quince/Countdown";
 import { Reveal } from "@/components/quince/Reveal";
-import { MusicPlayer } from "@/components/quince/MusicPlayer";
 import { FloatingBalloons } from "@/components/quince/FloatingBalloons";
 import { EnvelopeDecor, MiniEnvelope } from "@/components/quince/EnvelopeShower";
 import discoballs from "@/assets/discoballs.jpg";
@@ -43,7 +42,6 @@ function Index() {
   return (
     <main className="relative overflow-x-hidden">
       {!opened && <Envelope onOpen={() => setOpened(true)} />}
-      <MusicPlayer start={opened} />
       {opened && <FloatingBalloons />}
 
       {/* HERO */}
@@ -267,7 +265,7 @@ function Index() {
             Una noche para recordar
           </p>
 
-          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6 !bg-transparent">
+          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6">
             Sorpresas
           </h2>
 
