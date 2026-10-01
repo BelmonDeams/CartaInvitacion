@@ -267,7 +267,7 @@ function Index() {
             Una noche para recordar
           </p>
 
-          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6">
+          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6 !bg-transparent">
             Sorpresas
           </h2>
 
