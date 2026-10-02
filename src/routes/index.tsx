@@ -171,131 +171,129 @@ function Index() {
           ))}
         </div>
 
-        <div className="relative mx-auto max-w-md">
-        </div>
-      </section>
 
-      {/* CONFIRMACIÓN */}
-      <section className="relative overflow-hidden px-6 pt-24 pb-20">
-        <img
-          src={discoballs}
-          alt=""
-          aria-hidden="true"
-          width={1024}
-          height={1536}
-          loading="lazy"
-          className="img-fade absolute inset-0 h-full w-full scale-y-[-1] object-cover opacity-45"
-        />
-        <div className="img-fade absolute inset-0 bg-background/70 backdrop-blur-[3px]" />
-        <div className="relative mx-auto max-w-md">
-          <Reveal className="text-center">
 
-            <h2 className="font-script neon text-5xl">Confirmación</h2>
-            <p className="mt-5 font-display text-lg text-foreground/80 italic">
-              ¡Espero que seas parte de esta gran celebración!
-            </p>
-            <a
-              href={FORM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-9 inline-block rounded-full border border-gold/70 bg-blush px-10 py-4 text-[0.65rem] tracking-[0.35em] text-primary-foreground uppercase shadow-[0_0_34px_-6px_oklch(0.84_0.11_88/0.7)] transition-transform hover:scale-105"
-            >
-              confirmar
-            </a>
-          </Reveal>
-          <Reveal delay={250}>
-            <div className="rule-thin mx-auto mt-20 w-24" />
-            <p className="mt-6 text-center font-script text-3xl text-blush/80">Jimena</p>
-            <p className="mt-2 text-center text-[0.55rem] tracking-[0.4em] text-muted-foreground uppercase">
-              16 de octubre 2026
-            </p>
-          </Reveal>
-        </div>
-      </section>
-      {/* SORPRESAS */}
-      <section className="relative px-6 py-24 bg-black text-center overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.10),transparent_60%)]" />
+        {/* CONFIRMACIÓN */}
+        <section className="relative overflow-hidden px-6 pt-24 pb-20">
+          <img
+            src={discoballs}
+            alt=""
+            aria-hidden="true"
+            width={1024}
+            height={1536}
+            loading="lazy"
+            className="img-fade absolute inset-0 h-full w-full scale-y-[-1] object-cover opacity-45"
+          />
+          <div className="img-fade absolute inset-0 bg-background/70 backdrop-blur-[3px]" />
+          <div className="relative mx-auto max-w-md">
+            <Reveal className="text-center">
 
-        <div className="relative z-10 max-w-3xl mx-auto">
-          <p className="text-[0.65rem] tracking-[0.45em] text-gold uppercase mb-4">
-            Una noche para recordar
-          </p>
-
-          <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6">
-            Sorpresas
-          </h2>
-
-          <div className="rule-gold shimmer-line mx-auto mb-8 w-32" />
-
-          <p className="text-sm sm:text-base text-silver/80 leading-relaxed max-w-2xl mx-auto mb-12">
-            Por favor, llega puntual; tenemos preparadas muchas sorpresas para ti.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">🌳</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Libro de árbol
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Para que me escribas un lindo mensaje.
+              <h2 className="font-script neon text-5xl">Confirmación</h2>
+              <p className="mt-5 font-display text-lg text-foreground/80 italic">
+                ¡Espero que seas parte de esta gran celebración!
               </p>
-            </div>
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">🎨</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Pinta caritas y tatuajes
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Un espacio para divertirte y dejar volar tu imaginación.
+              <a
+                href={FORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-9 inline-block rounded-full border border-gold/70 bg-blush px-10 py-4 text-[0.65rem] tracking-[0.35em] text-primary-foreground uppercase shadow-[0_0_34px_-6px_oklch(0.84_0.11_88/0.7)] transition-transform hover:scale-105"
+              >
+                confirmar
+              </a>
+            </Reveal>
+            <Reveal delay={250}>
+              <div className="rule-thin mx-auto mt-20 w-24" />
+              <p className="mt-6 text-center font-script text-3xl text-blush/80">Jimena</p>
+              <p className="mt-2 text-center text-[0.55rem] tracking-[0.4em] text-muted-foreground uppercase">
+                16 de octubre 2026
               </p>
-            </div>
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">📸</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Cabina de fotos
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Guarda recuerdos especiales de esta gran noche.
-              </p>
-            </div>
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">🍿</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Barra de snacks
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Algo delicioso para disfrutar durante la celebración.
-              </p>
-            </div>
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">🎁</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Piñata
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Prepárate para un momento lleno de diversión.
-              </p>
-            </div>
-
-            <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
-              <div className="text-2xl mb-3">🎭</div>
-              <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
-                Show con animación
-              </h3>
-              <p className="text-silver/70 text-sm leading-relaxed">
-                Una sorpresa especial para disfrutar juntos.
-              </p>
-            </div>
-
+            </Reveal>
           </div>
-        </div>
-      </section>
+        </section>
+        {/* SORPRESAS */}
+        <section className="relative px-6 py-24 bg-black text-center overflow-hidden">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.10),transparent_60%)]" />
+
+          <div className="relative z-10 max-w-3xl mx-auto">
+            <p className="text-[0.65rem] tracking-[0.45em] text-gold uppercase mb-4">
+              Una noche para recordar
+            </p>
+
+            <h2 className="font-script text-5xl sm:text-6xl text-silver mb-6">
+              Sorpresas
+            </h2>
+
+            <div className="rule-gold shimmer-line mx-auto mb-8 w-32" />
+
+            <p className="text-sm sm:text-base text-silver/80 leading-relaxed max-w-2xl mx-auto mb-12">
+              Por favor, llega puntual; tenemos preparadas muchas sorpresas para ti.
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">🌳</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Libro de árbol
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Para que me escribas un lindo mensaje.
+                </p>
+              </div>
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">🎨</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Pinta caritas y tatuajes
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Un espacio para divertirte y dejar volar tu imaginación.
+                </p>
+              </div>
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">📸</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Cabina de fotos
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Guarda recuerdos especiales de esta gran noche.
+                </p>
+              </div>
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">🍿</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Barra de snacks
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Algo delicioso para disfrutar durante la celebración.
+                </p>
+              </div>
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">🎁</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Piñata
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Prepárate para un momento lleno de diversión.
+                </p>
+              </div>
+
+              <div className="border border-gold/30 bg-white/[0.03] p-6 rounded-sm">
+                <div className="text-2xl mb-3">🎭</div>
+                <h3 className="text-gold uppercase tracking-[0.2em] text-sm mb-2">
+                  Show con animación
+                </h3>
+                <p className="text-silver/70 text-sm leading-relaxed">
+                  Una sorpresa especial para disfrutar juntos.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
     </main>
   );
 }
