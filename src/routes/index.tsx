@@ -41,14 +41,13 @@ function Index() {
     <main className="relative overflow-x-hidden">
       {!opened && <Envelope onOpen={() => setOpened(true)} />}
       {/* HERO */}
-      <section className="relative flex min-h-screen flex-col items-center justify-end overflow-hidden px-6 pb-16">
-        <img
-          src={discoballs}
-          alt="Esferas de disco plateadas colgando sobre un fondo oscuro"
-          width={1024}
-          height={1536}
-          className="img-fade absolute inset-0 h-full w-full object-cover opacity-80"
-        />
+      <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 py-16">        <img
+        src={discoballs}
+        alt="Esferas de disco plateadas colgando sobre un fondo oscuro"
+        width={1024}
+        height={1536}
+        className="img-fade absolute inset-0 h-full w-full object-cover opacity-80"
+      />
         <div className="veil-top absolute inset-0" />
 
         <Reveal className="relative z-10 mx-auto w-full max-w-3xl -mt-12 text-center px-4">          <h1 className="font-script neon mt-4 text-8xl leading-[0.9] sm:text-9xl text-center">Jimena</h1>          <p className="mt-1 font-display text-lg tracking-[0.3em] text-silver/80 uppercase">
