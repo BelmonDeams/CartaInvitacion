@@ -172,31 +172,6 @@ function Index() {
         </div>
 
         <div className="relative mx-auto max-w-md">
-          <Reveal>
-            <div className="navy-panel px-7 py-10 text-center">
-              <p className="text-[0.6rem] tracking-[0.45em] text-gold uppercase">nuestro regalo</p>
-              <h2 className="font-script gold-text mt-3 text-5xl leading-tight">
-                Lluvia de sobres
-              </h2>
-              <div className="rule-gold mx-auto mt-6 w-28" />
-              <p className="mt-7 font-display text-lg leading-relaxed text-foreground/90 italic">
-                Como parte de la ceremonia, celebraremos la tradicional lluvia de sobres.
-                Tu presente viajará dentro de un sobre cerrado que compartirás con Jimena
-                durante ese momento tan especial de la noche.
-              </p>
-              <div className="mt-8 flex items-center justify-center gap-3">
-                <MiniEnvelope size={30} />
-                <p className="text-[0.6rem] tracking-[0.34em] text-gold uppercase">
-                  sobre cerrado indispensable
-                </p>
-                <MiniEnvelope size={30} />
-              </div>
-              <p className="mt-6 text-[0.68rem] leading-relaxed tracking-[0.12em] text-silver/80 uppercase">
-                Te pedimos con cariño llevarlo contigo; será el detalle que hará brillar
-                la ceremonia.
-              </p>
-            </div>
-          </Reveal>
         </div>
       </section>
 
