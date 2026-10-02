@@ -37,8 +37,7 @@ const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Salon+Le+Paris
 
 
 function Index() {
-  const [opened, setOpened] = useState(false);
-
+  const [opened, setOpened] = useState(true);
   return (
     <main className="relative overflow-x-hidden">
       {!opened && <Envelope onOpen={() => setOpened(true)} />}
