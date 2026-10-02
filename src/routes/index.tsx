@@ -153,7 +153,6 @@ function Index() {
       {/* LLUVIA DE SOBRES */}
       <section className="relative overflow-hidden px-6 py-24">
         <div className="navy-veil absolute inset-0" />
-        <div className="soft-blur absolute top-10 left-1/2 h-56 w-72 -translate-x-1/2 rounded-full bg-navy/70" />
         <EnvelopeDecor />
         <div className="pointer-events-none absolute inset-0">
           {[
