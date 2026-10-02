@@ -4,8 +4,7 @@ import { Envelope } from "@/components/quince/Envelope";
 import { Countdown } from "@/components/quince/Countdown";
 import { Reveal } from "@/components/quince/Reveal";
 import { FloatingBalloons } from "@/components/quince/FloatingBalloons";
-import { EnvelopeDecor, MiniEnvelope } from "@/components/quince/EnvelopeShower";
-import discoballs from "@/assets/discoballs.jpg";
+import { MiniEnvelope } from "@/components/quince/EnvelopeShower"; import discoballs from "@/assets/discoballs.jpg";
 import haze from "@/assets/haze.jpg";
 
 export const Route = createFileRoute("/")({
