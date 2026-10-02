@@ -41,8 +41,6 @@ function Index() {
   return (
     <main className="relative overflow-x-hidden">
       {!opened && <Envelope onOpen={() => setOpened(true)} />}
-      {opened && <FloatingBalloons />}
-
       {/* HERO */}
       <section className="relative flex min-h-screen flex-col items-center justify-end overflow-hidden px-6 pb-16">
         <img
