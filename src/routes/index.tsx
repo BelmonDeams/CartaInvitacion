@@ -7,7 +7,6 @@ import { FloatingBalloons } from "@/components/quince/FloatingBalloons";
 import { EnvelopeDecor, MiniEnvelope } from "@/components/quince/EnvelopeShower";
 import discoballs from "@/assets/discoballs.jpg";
 import haze from "@/assets/haze.jpg";
-import globos from "@/assets/globos15.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -64,18 +63,7 @@ function Index() {
           </p>
         </Reveal>
 
-        <Reveal delay={200} className="relative z-10 mt-6 w-full">
-          <div className="relative mx-auto w-[86%] max-w-[520px]">
-            <div className="soft-blur absolute inset-x-6 top-6 h-40 rounded-full bg-blush/40" />
-            <img
-              src={globos}
-              alt="Globos plateados con el número 15"
-              width={1024}
-              height={1024}
-              className="animate-sway relative mx-auto w-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.7)]"
-            />
-          </div>
-        </Reveal>
+
       </section>
 
       {/* MENSAJE */}
