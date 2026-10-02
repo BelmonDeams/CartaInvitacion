@@ -51,10 +51,8 @@ function Index() {
         />
         <div className="veil-top absolute inset-0" />
 
-        <Reveal className="relative z-10 text-center">
-          <p className="text-[0.6rem] tracking-[0.45em] text-gold uppercase">16 · 10 · 2026</p>
-          <h1 className="font-script neon mt-4 text-7xl leading-[0.85] sm:text-8xl">Jimena</h1>
-          <p className="mt-1 font-display text-lg tracking-[0.3em] text-silver/80 uppercase">
+        <Reveal className="relative z-10 mx-auto w-full max-w-3xl text-center px-4">          <p className="text-[0.6rem] tracking-[0.45em] text-gold uppercase">16 · 10 · 2026</p>
+          <h1 className="font-script neon mt-4 text-8xl leading-[0.9] sm:text-9xl text-center">Jimena</h1>          <p className="mt-1 font-display text-lg tracking-[0.3em] text-silver/80 uppercase">
             Espadas
           </p>
           <div className="rule-gold shimmer-line mx-auto mt-8 w-40" />
